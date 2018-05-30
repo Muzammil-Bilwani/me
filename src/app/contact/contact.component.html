@@ -1,0 +1,14 @@
+<div id="contact">
+  <img src="assets/mypic.jpg" class="thumbnail" alt="">
+
+  <div class="social-bar">
+
+    <a class="link" *ngFor="let link of socialLinks" [href]="link.link">
+      <i class="fa" [ngClass]="link.icon" aria-hidden="true"></i>
+      <span>{{link.value}}</span>
+    </a>
+
+  </div>
+
+
+</div>

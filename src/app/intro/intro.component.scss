@@ -1,0 +1,46 @@
+#intro {
+  height: 100vh;
+  background: url("../../assets/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    h2 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 48px;
+      line-height: 57px;
+      font-weight: 700;
+      margin: 0px;
+      padding-bottom: 8px;
+      color: white;
+      text-transform: uppercase;
+    }
+    h4 {
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      line-height: 27px;
+      font-weight: 400;
+      padding-bottom: 38px;
+      margin: 0px;
+      font-size: 18px;
+      color: #fff;
+      padding-bottom: 42px;
+    }
+    a {
+      line-height: 52px;
+      color: #fff;
+      font-size: 14px;
+      background-color: #ef7674;
+      text-transform: uppercase;
+      padding: 1.5em;
+      margin: 1em;
+      cursor: pointer;
+    }
+  }
+}
