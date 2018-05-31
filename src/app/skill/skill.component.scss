@@ -5,8 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
     h2 {
-        font-family: 'Open Sans', sans-serif;
         font-size: 36px;
         line-height: 38px;
         padding-bottom: 0px;
@@ -17,12 +17,14 @@
         padding-bottom: 9px;
         color: #5b4c5c;
         margin-bottom: 45px;
+        margin-top: 45px;
     }
     .card {
-        width: 80%;
+        width: 65%;
         border-radius: 10px;
         background: #314249;
         padding: 30px 34px 41px;
+        margin-bottom: 1em;
     }
 }
 
@@ -43,4 +45,24 @@
     .green {
         background: #24CB40;
     }
+}
+
+.var {
+    color: #B994B8;
+}
+
+.text {
+    color: white;
+}
+
+.var-2 {
+    color: #E2946A;
+}
+
+.var-3 {
+    color: #9AB69F
+}
+
+.comment {
+  color :#687981
 }
