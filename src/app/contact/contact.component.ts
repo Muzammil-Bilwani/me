@@ -14,12 +14,12 @@ export class ContactComponent implements OnInit {
     {
       value: "muzammil.bilwani@hotmail.com",
       icon: "fa-envelope",
-      link: ""
+      link: "mailto:muzammil.bilwani@hotmail.com"
     },
     {
       value: "Karachi, Pakistan",
       icon: "fa-map-marker",
-      link: ""
+      link: "https://goo.gl/maps/WcuoS1ejpDQ2"
     },
     {
       value: "muzammil.bilwani",

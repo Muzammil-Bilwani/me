@@ -3,9 +3,9 @@
   <h2>GET IN TOUCH</h2>
   <div class="row">
     <div class="social-bar">
-      <a class="link" *ngFor="let link of socialLinks" [href]="link.link">
+      <a class="link" *ngFor="let link of socialLinks" [href]="link.link" target="__black">
         <i class="fa" [ngClass]="link.icon" aria-hidden="true"></i>
-        <span>{{link.value}}</span>
+        <!-- <span>{{link.value}}</span> -->
       </a>
     </div>
   </div>

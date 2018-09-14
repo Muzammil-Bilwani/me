@@ -17,6 +17,7 @@ export class SkillComponent implements OnInit {
     Front_End: ["HTML5", "CSS3", "SASS", "LESS"],
     Languages: ["C", "Java", "JavaScript", "Typescript", "SQL"],
     Version_Controlling: ["Git"],
+    Deployment_Cloud: ['AWS EC2 ', 'S3', 'ngnix']
   }
 
 }
