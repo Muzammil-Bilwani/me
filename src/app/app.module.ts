@@ -6,6 +6,7 @@ import { IntroComponent } from './intro/intro.component';
 import { SkillComponent } from './skill/skill.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormatterPipe } from './pipe/formatter.pipe';
+import { PublicationComponent } from './publication/publication.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { FormatterPipe } from './pipe/formatter.pipe';
     IntroComponent,
     SkillComponent,
     ContactComponent,
-    FormatterPipe
+    FormatterPipe,
+    PublicationComponent
   ],
   imports: [
     BrowserModule

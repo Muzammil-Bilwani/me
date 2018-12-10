@@ -28,6 +28,7 @@
       font-size: 15px;
       line-height: 27px;
       font-weight: 400;
+      text-align: center;
       padding-bottom: 38px;
       margin: 0px;
       font-size: 18px;
@@ -53,4 +54,12 @@
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.thumbnail {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+  margin-top: 3em;
 }
