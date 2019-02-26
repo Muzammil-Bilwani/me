@@ -1,0 +1,90 @@
+@mixin flex-box {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flex-wrap() {
+  flex-wrap: wrap;
+}
+
+@mixin flex-content($type) {
+  justify-content: $type;
+}
+
+@mixin card($height, $width) {
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 1em;
+  color: white;
+  cursor: pointer;
+  background: #314249;
+  width: $width;
+  height: $height;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#work {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  .content {
+    width: 75%;
+  }
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-bottom: 0px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-bottom: 9px;
+    color: #5b4c5c;
+    margin-bottom: 45px;
+  }
+  h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 0px;
+    font-weight: 400;
+    width: 7em;
+    margin: auto;
+    text-transform: uppercase;
+    border-bottom: #ef7674 2px solid;
+    padding-bottom: 9px;
+    color: #5b4c5c;
+    margin-bottom: 45px;
+  }
+  .open-source {
+    margin-bottom: 1em;
+    @include flex-box();
+    @include flex-wrap();
+    @include flex-content(space-between);
+    .card {
+      @include card(2em, 15em);
+      @include flex-box();
+      @include flex-content(space-between);
+    }
+  }
+  .works {
+    @include flex-box();
+    @include flex-wrap();
+    @include flex-content(center);
+    .card {
+      @include card(8em, 18em);
+      .head {
+        font-size: 1.2em;
+        margin-top: 0;
+        border-bottom: 1px solid white;
+      }
+      .link {
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+}

@@ -6,45 +6,45 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements OnInit {
-  constructor() {}
+  constructor() { }
 
   socialLinks = [
     {
       value: 'muzammil.bilwani@hotmail.com',
-      icon: 'fa-envelope',
+      icon: 'fas  fa-envelope',
       link: 'mailto:muzammil.bilwani@hotmail.com'
     },
     {
       value: 'Karachi, Pakistan',
-      icon: 'fa-map-marker',
+      icon: 'fas fa-map-marker',
       link: 'https://goo.gl/maps/WcuoS1ejpDQ2'
     },
     {
       value: 'muzammil.bilwani',
-      icon: 'fa-facebook',
+      icon: 'fab fa-facebook',
       link: 'https://www.facebook.com/muzammil.bilwani'
     },
     {
       value: 'muzammilbilwani',
-      icon: 'fa-instagram',
+      icon: 'fab fa-instagram',
       link: 'https://www.instagram.com/muzammilbilwani/'
     },
     {
       value: 'muzammilbilwani',
-      icon: 'fa-linkedin',
+      icon: 'fab fa-linkedin',
       link: 'https://www.linkedin.com/in/muzammilbilwani/'
     },
     {
       value: '@BilwaniMuzammil',
-      icon: 'fa-twitter',
+      icon: 'fab fa-twitter',
       link: 'https://twitter.com/BilwaniMuzammil'
     },
     {
       value: 'Muzammil-Bilwani',
-      icon: 'fa-github',
+      icon: 'fab fa-github',
       link: 'https://github.com/Muzammil-Bilwani'
     }
   ];
 
-  ngOnInit() {}
+  ngOnInit() { }
 }

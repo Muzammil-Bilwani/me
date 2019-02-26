@@ -1,3 +1,23 @@
-<div>
-
+<div id="work">
+  <div class="content">
+    <h3>Open Source</h3>
+    <div class="flex-box open-source">
+      <div class="card" *ngFor="let item of openSource" (click)="openLink(item.demo)">
+        <p>{{item.title | uppercase}}</p>
+        <i class="fab fa-github" (click)="openLink(item.link)"></i>
+      </div>
+    </div>
+    <h2>
+      Catch more on
+      <i class="fab fa-github hand" (click)="openLink('https://github.com/Muzammil-Bilwani')"></i>
+    </h2>
+    <h3>From the lab</h3>
+    <div class="flex-box works">
+      <div class="card center" *ngFor="let item of works" (click)="openLink(item.link)">
+        <p class="head">{{item.title | uppercase}}</p>
+        <p class="desc">{{item.description}}</p>
+        <a class="link">Give it a try </a>
+      </div>
+    </div>
+  </div>
 </div>
