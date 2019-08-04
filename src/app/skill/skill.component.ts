@@ -13,10 +13,10 @@ export class SkillComponent implements OnInit {
   skills = {
     Frameworks_Libraries: ['Angular 2+/ JS', 'ReactJs', 'Vue', 'jQuery', 'Ionic3', 'Node.js', 'Express.js', 'Sequelize'],
     Front_End: ['HTML5', 'CSS3', 'SASS', 'LESS'],
-    Languages: ['C', 'Java', 'JavaScript', 'Typescript'],
+    Languages: ['JavaScript', 'Typescript'],
     Version_Controlling: ['Git'],
     Databases: ['Mongo', 'MySQL'],
-    Deployment_Cloud: ['AWS EC2 ', 'S3', 'Nginx', 'CI/CD']
+    Deployment_Cloud: ['AWS EC2 ', 'S3', 'Nginx', 'CI/CD', 'Serverless']
   };
 
   ngOnInit() {

@@ -1,62 +1,108 @@
 <div id="skill">
   <h2>WHAT I DO?</h2>
-  <div class="card">
-    <div class="header-bar">
-      <span class="dot red"></span>
-      <span class="dot yellow"></span>
-      <span class="dot green"></span>
+  <div class="box">
+    <div class="card">
+      <div class="header-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
+
+      <p>
+        <span class="var-2"> Started working </span>
+        <span class="text"> : {{ getTime() }}
+        </span>
+      </p>
+      <p class="comment">
+        // - - - - - - Experience - - - - - -
+      </p>
+      <p>
+        <span class="var-2">Currently Working</span>
+        <span class="text"> : Senior Software Engineer -
+          <a class="var-3" href="https://www.brandver.se" target="__blank">Brandverse</a>
+        </span>
+      </p>
+      <p>
+        <span class="var-4">Previously Worked</span>
+        <span class="text"> : Software Engineer -
+          <span class="var-5"> Dec 2017 - July 2019 - </span>
+          <a class="var-3" href="https://www.venturedive.com" target="__blank">VentureDive</a>
+        </span>
+      </p>
+
+      <p>
+        <span class="var-2 spacer"></span>
+        <span class="text"> : Junior Software Developer -
+          <span class="var-5"> June 2016 - Nov 2017 - </span>
+          <a class="var-3" href="https://www.sudofy.com" target="__blank">Sudofy</a>
+        </span>
+      </p>
+      <p class="comment">
+        // - - - - - - Education - - - - - -
+      </p>
+      <p>
+        <span class="var-2">Last Education</span>
+        <span class="text"> : Bachelor of Science in Computer Science -
+          <span class="var-3">University of Karachi</span>
+        </span>
+      </p>
+      <p class="comment">
+        // - - - - - - Achievements - - - - - -
+      </p>
+      <p>
+        <span class="var-2">Award</span>
+        <span class="text"> : Webwiz -
+          <span class="var-5"> Mar 2019 - </span>
+          <a class="var-3" href="https://www.venturedive.com" target="__blank">VentureDive</a>
+        </span>
+      </p>
+
+      <p>
+        <span class="var-2">Distinction</span>
+        <span class="text"> : Position Holder -
+          <span class="var-3">University of Karachi</span>
+        </span>
+      </p>
     </div>
-    <p>
-      <span class="var-2">Currently Working</span>
-      <span class="text"> : Software Engineer -
-        <span class="var-3">Venture Dive</span>
-      </span>
-    </p>
-    <p>
-      <span class="var-2"> Started working </span>
-      <span class="text"> : {{ getTime() }}
-      </span>
-    </p>
+    <div class="card">
+      <div class="header-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
 
-    <p>
-      <span class="var-2">Last Education</span>
-      <span class="text"> : Bachelor of Science in Computer Science -
-        <span class="var-3">University of Karachi</span>
-      </span>
-    </p>
+      <p class="comment">
+        // - - - - - - Skill Set - - - - - -
+      </p>
 
-    <p class="comment">
-      // - - - - - - Skill Set - - - - - -
-    </p>
+      <p>
+        <span class="var">Frameworks And Libraries</span>
+        <span class="text"> : {{skills.Frameworks_Libraries | formatter}}</span>
+      </p>
 
-    <p>
-      <span class="var">Frameworks And Libraries</span>
-      <span class="text"> : {{skills.Frameworks_Libraries | formatter}}</span>
-    </p>
+      <p>
+        <span class="var">Front End </span>
+        <span class="text"> : {{skills.Front_End | formatter}}</span>
+      </p>
 
-    <p>
-      <span class="var">Front End </span>
-      <span class="text"> : {{skills.Front_End | formatter}}</span>
-    </p>
+      <p>
+        <span class="var">Languages</span>
+        <span class="text"> : {{skills.Languages | formatter}}</span>
+      </p>
 
-    <p>
-      <span class="var">Languages</span>
-      <span class="text"> : {{skills.Languages | formatter}}</span>
-    </p>
+      <p>
+        <span class="var">Databases</span>
+        <span class="text"> : {{skills.Databases | formatter}}</span>
+      </p>
 
-    <p>
-      <span class="var">Databases</span>
-      <span class="text"> : {{skills.Databases | formatter}}</span>
-    </p>
-
-    <p>
-      <span class="var">Version Controlling</span>
-      <span class="text"> : {{skills.Version_Controlling | formatter}}</span>
-    </p>
-    <p>
-      <span class="var">Deployment and Cloud</span>
-      <span class="text"> : {{skills.Deployment_Cloud | formatter}}</span>
-    </p>
-
+      <p>
+        <span class="var">Version Controlling</span>
+        <span class="text"> : {{skills.Version_Controlling | formatter}}</span>
+      </p>
+      <p>
+        <span class="var">Deployment and Cloud</span>
+        <span class="text"> : {{skills.Deployment_Cloud | formatter}}</span>
+      </p>
+    </div>
   </div>
 </div>

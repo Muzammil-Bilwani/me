@@ -31,9 +31,11 @@
   align-items: center;
   margin-top: 2em;
   margin-bottom: 2em;
+
   .content {
     width: 75%;
   }
+
   h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -46,6 +48,7 @@
     color: #5b4c5c;
     margin-bottom: 45px;
   }
+
   h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
@@ -60,28 +63,38 @@
     color: #5b4c5c;
     margin-bottom: 45px;
   }
+
   .open-source {
     margin-bottom: 1em;
     @include flex-box();
     @include flex-wrap();
     @include flex-content(space-between);
+
+    @media (max-width: 768px) {
+      @include flex-content(center);
+    }
+
     .card {
       @include card(2em, 15em);
       @include flex-box();
       @include flex-content(space-between);
     }
   }
+
   .works {
     @include flex-box();
     @include flex-wrap();
     @include flex-content(center);
+
     .card {
       @include card(8em, 18em);
+
       .head {
         font-size: 1.2em;
         margin-top: 0;
         border-bottom: 1px solid white;
       }
+
       .link {
         border-bottom: 1px solid white;
       }
